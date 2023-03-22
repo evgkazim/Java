@@ -1,2 +1,2 @@
-# hpa_db
-
+Spring
+Redis JedisPool and JedisConnectionFactory(RedisTemplate)
