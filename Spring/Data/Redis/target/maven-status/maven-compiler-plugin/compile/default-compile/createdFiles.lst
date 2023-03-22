@@ -1,6 +1,0 @@
-kazim\redis\config\RedisConfig.class
-kazim\redis\model\Model.class
-kazim\redis\RedisApplication.class
-kazim\redis\repository\ModelRepository.class
-kazim\redis\controller\JedisController.class
-kazim\redis\controller\RedisController.class
