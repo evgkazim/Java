@@ -1,2 +1,1 @@
-Spring
-Redis JedisPool and JedisConnectionFactory(RedisTemplate)
+Spring Data Redis
