@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Data</module>
+        <module>Security</module>
     </modules>
 
     <properties>

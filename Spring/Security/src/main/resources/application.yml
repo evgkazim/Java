@@ -1,0 +1,19 @@
+server:
+  port: 9099
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/main
+    username: postgres
+    password: changeme
+    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+#      springframework:
+#        security: DEBUG
