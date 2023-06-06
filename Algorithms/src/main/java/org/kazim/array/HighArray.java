@@ -17,15 +17,15 @@ public class HighArray {
      * @param searchKey
      * @return
      */
-    public boolean find(long searchKey) {
+    public int find(long searchKey) {
         int j;
         for (j = 0; j < nElems; j++)
             if (a[j] == searchKey)
                 break;
         if (j == nElems)
-            return false;
+            return 0;
         else
-            return true;
+            return j;
     }
 
     public void insert(long value) {
@@ -52,5 +52,9 @@ public class HighArray {
         for (int j = 0; j < nElems; j++)
             System.out.print(a[j] + " ");
         System.out.println("");
+    }
+
+    public long[] getA() {
+        return a;
     }
 }

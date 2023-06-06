@@ -68,4 +68,8 @@ public class OrdArray {
             System.out.print(a[j] + " ");
         System.out.println("");
     }
+
+    public long[] getA() {
+        return a;
+    }
 }
