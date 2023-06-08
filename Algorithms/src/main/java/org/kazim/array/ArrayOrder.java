@@ -3,11 +3,11 @@ package org.kazim.array;
 /**
  * Сортированный массив
  */
-public class OrdArray {
+public class ArrayOrder {
     private long[] a;
     private int nElems;
 
-    public OrdArray(int max) {
+    public ArrayOrder(int max) {
         this.a = new long[max];
         this.nElems = 0;
     }

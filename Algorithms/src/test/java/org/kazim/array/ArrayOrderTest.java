@@ -1,14 +1,18 @@
 package org.kazim.array;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
-class HighArrayTest {
+class ArrayOrderTest {
     int maxSize = 100;
-    HighArray arr = new HighArray(maxSize);
+    ArrayOrder arr = new ArrayOrder(maxSize);
+
+    @BeforeEach
+    void setUp() {
+    }
 
     @Test
-    void find() {
+    void test() {
         arr.insert(77);
         arr.insert(99);
         arr.insert(44);
@@ -19,14 +23,16 @@ class HighArrayTest {
         arr.insert(00);
         arr.insert(66);
         arr.insert(33);
-
         arr.display();
 
-        int searchKey = 35;
-        if(arr.find(searchKey) != 0)
+        int searchKey = 55;
+
+        if (arr.find(searchKey) != arr.size())
             System.out.println("Found " + searchKey);
         else
             System.out.println("Can't find " + searchKey);
+        arr.display();
+
         arr.delete(00);
         arr.delete(55);
         arr.delete(99);
